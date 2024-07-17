@@ -5,7 +5,6 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 };
 
 updateScoreElement();
-
 /*
 if (!score) {
   score = {
@@ -15,10 +14,8 @@ if (!score) {
   };
 }
 */
-
 let isAutoPlaying = false;
 let intervalId;
-
 //const autoPlay = () => {
 
 //};
